@@ -1,0 +1,107 @@
+#---------------------------------------------------#
+## 更新：2024-02-15 10:19:07
+## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
+## 链接：https://33.mjjspeed.top/link/UpX7VaZFAyTQOfYS?clash=1
+#---------------------------------------------------#
+
+# 代理端口设置：这三个端口允许不同的应用程序和协议通过Clash代理软件来连接到互联网。
+# 用户可以根据自己的需要和场景选择不同类型的代理端口进行配置。
+# 例如，如果你只需要代理浏览器流量，可能只需要配置HTTP代理端口；
+# 如果需要代理所有应用程序的流量，可能会选择配置SOCKS5代理或Redir代理。
+port: 7890 # HTTP 代理端口
+socks-port: 7891 # SOCKS5 代理端口
+redir-port: 7892 # Linux 和 macOS 的 redir 代理端口
+
+# 允许局域网的连接
+allow-lan: true
+
+# 规则模式：Rule（规则） / Global（全局代理）/ Direct（全局直连）
+mode: Rule
+
+# 设置日志输出级别 (silent / info / warning / error / debug）。
+log-level: silent
+
+# Clash 的 RESTful API
+external-controller: '0.0.0.0:9090'
+
+# RESTful API 的口令
+secret: '' 
+
+dns:
+  enable: true
+  ipv6: false
+  # listen: 0.0.0.0:53
+  # enhanced-mode: redir-host
+  default-nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+  nameserver:
+    - 119.29.29.29
+    - 223.5.5.5
+    - tls://dot.pub:853
+    - tls://dns.alidns.com:853
+  fallback:
+    - tls://1.0.0.1:853
+    - tls://8.8.4.4:853
+  fallback-filter:
+    geoip: true
+    ipcidr:
+      - 240.0.0.0/4
+
+proxies:
+  - {"name":"🇷🇺 俄罗斯","type":"vmess","server":"ru.mjjspeed.com","port":36351,"cipher":"chacha20-poly1305","uuid":"e257d123-f211-36ec-992b-a7a5ce25c874","alterId":0,"udp":true,"network":"tcp"}
+
+proxy-groups:
+-
+  name: '🔰 节点选择'
+  type: select
+  proxies:
+    - '🔯 故障切换'
+    - '♻️ 自动选择'
+    - '🇷🇺 俄罗斯'
+-
+  name: '🔯 故障切换'
+  type: fallback
+  proxies:
+    - '🇷🇺 俄罗斯'
+  url: 'http://www.gstatic.com/generate_204'  # 指定了一个用于测试代理服务器连通性的 URL
+  interval: 600  # 定义了 Clash 发送测试请求到 url 的时间间隔，单位是秒，即每 10 分钟测试一下节点连通性
+-
+  name: '♻️ 自动选择'
+  type: url-test
+  proxies:
+    - '🇷🇺 俄罗斯'
+  url: 'http://www.gstatic.com/generate_204'
+  interval: 600
+-
+  name: '🐟 漏网之鱼'
+  type: select
+  proxies:
+    - '🔰 节点选择'
+    - '🔯 故障切换'
+    - '♻️ 自动选择'
+    - '🎯 全球直连'
+-
+  name: '🎯 全球直连'
+  type: select
+  proxies:
+    - DIRECT
+
+
+# 规则
+rules:
+  - DOMAIN-KEYWORD,1e100,🔰 节点选择
+  - DOMAIN-KEYWORD,appledaily,🔰 节点选择
+  - DOMAIN-KEYWORD,beetalk,🔰 节点选择
+  # 当规则中包含 no-resolve 时，Clash 会直接使用规则中定义的 IP 地址或 IP 范围来匹配流量，
+  # 而不会对目标域名进行 DNS 解析来确定是否匹配。
+  - IP-CIDR,1.201.0.0/24,🔰 节点选择,no-resolve
+  - IP-CIDR,13.32.0.0/15,🔰 节点选择,no-resolve
+  - IP-CIDR,18.184.0.0/15,🔰 节点选择,no-resolve
+  - DOMAIN-SUFFIX,pubsub.plex.tv,🎯 全球直连
+  - DOMAIN-SUFFIX,plex.tv,🎯 全球直连
+  # GEOIP：使用地理位置（GeoIP）数据库来匹配流量是否来自特定的国家。
+  - GEOIP,CN,🎯 全球直连
+  # MATCH 关键字代表默认规则，用于匹配所有不符合上述任何规则的流量
+  - MATCH,🐟 漏网之鱼
+

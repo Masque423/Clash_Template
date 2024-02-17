@@ -5,8 +5,9 @@
 # DOMAIN: 1
 # DOMAIN-KEYWORD: 3
 # DOMAIN-SUFFIX: 34
+# IP-CIDR: 1
 # PROCESS-NAME: 1
-# TOTAL: 39
+# TOTAL: 39+1
 DOMAIN,emby.enjoyit.eu.org
 DOMAIN-SUFFIX,agahk1.jmsooo.com
 DOMAIN-SUFFIX,agajp1.jmsooo.com
@@ -43,6 +44,7 @@ DOMAIN-SUFFIX,plusmedia.site
 DOMAIN-SUFFIX,pornemby.club
 DOMAIN-SUFFIX,servers.xeton.dev
 DOMAIN-KEYWORD,emby.wtf
-DOMAIN-KEYWORD,jmsooo
-DOMAIN-KEYWORD,odysseyplus
+DOMAIN-KEYWORD,jmsooo           # 卷毛鼠
+DOMAIN-KEYWORD,odysseyplus      # 奥德赛
+IP-CIDR,129.150.48.48/32,no-resolve  # CC
 PROCESS-NAME,com.mb.android

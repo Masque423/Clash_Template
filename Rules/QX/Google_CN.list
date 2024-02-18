@@ -1,0 +1,92 @@
+# ,🔎 谷歌
+# NAME: GoogleFCM
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/GoogleFCM/GoogleFCM_Resolve.list
+# UPDATED: 2024-02-03 01:47:59
+# DOMAIN: 9
+# DOMAIN-SUFFIX: 21
+# IP-CIDR: 26+18
+# TOTAL: 35
+
+# GoogleFCM
+DOMAIN,alt1-mtalk.google.com,🔎 谷歌
+DOMAIN,alt2-mtalk.google.com,🔎 谷歌
+DOMAIN,alt3-mtalk.google.com,🔎 谷歌
+DOMAIN,alt4-mtalk.google.com,🔎 谷歌
+DOMAIN,alt5-mtalk.google.com,🔎 谷歌
+DOMAIN,alt6-mtalk.google.com,🔎 谷歌
+DOMAIN,alt7-mtalk.google.com,🔎 谷歌
+DOMAIN,alt8-mtalk.google.com,🔎 谷歌
+DOMAIN,mtalk.google.com,🔎 谷歌
+IP-CIDR,108.177.125.188/32,no-resolve,🔎 谷歌
+IP-CIDR,142.250.10.188/32,no-resolve,🔎 谷歌
+IP-CIDR,142.250.31.188/32,no-resolve,🔎 谷歌
+IP-CIDR,142.250.4.188/32,no-resolve,🔎 谷歌
+IP-CIDR,142.250.96.188/32,no-resolve,🔎 谷歌
+IP-CIDR,172.217.194.188/32,no-resolve,🔎 谷歌
+IP-CIDR,172.217.218.188/32,no-resolve,🔎 谷歌
+IP-CIDR,172.217.219.188/32,no-resolve,🔎 谷歌
+IP-CIDR,172.253.122.188/32,no-resolve,🔎 谷歌
+IP-CIDR,172.253.63.188/32,no-resolve,🔎 谷歌
+IP-CIDR,173.194.175.188/32,no-resolve,🔎 谷歌
+IP-CIDR,173.194.218.188/32,no-resolve,🔎 谷歌
+IP-CIDR,209.85.233.188/32,no-resolve,🔎 谷歌
+IP-CIDR,64.233.177.188/32,no-resolve,🔎 谷歌
+IP-CIDR,64.233.186.188/32,no-resolve,🔎 谷歌
+IP-CIDR,64.233.187.188/32,no-resolve,🔎 谷歌
+IP-CIDR,64.233.188.188/32,no-resolve,🔎 谷歌
+IP-CIDR,64.233.189.188/32,no-resolve,🔎 谷歌
+IP-CIDR,74.125.127.188/32,no-resolve,🔎 谷歌
+IP-CIDR,74.125.137.188/32,no-resolve,🔎 谷歌
+IP-CIDR,74.125.203.188/32,no-resolve,🔎 谷歌
+IP-CIDR,74.125.204.188/32,no-resolve,🔎 谷歌
+IP-CIDR,74.125.206.188/32,no-resolve,🔎 谷歌
+IP-CIDR,74.125.23.188/32,no-resolve,🔎 谷歌
+IP-CIDR,74.125.24.188/32,no-resolve,🔎 谷歌
+IP-CIDR,74.125.28.188/32,no-resolve,🔎 谷歌
+
+# Google_CN
+DOMAIN-SUFFIX,app-measurement.com,🔎 谷歌
+DOMAIN-SUFFIX,cache.pack.google.com,🔎 谷歌
+DOMAIN-SUFFIX,clickserve.dartsearch.net,🔎 谷歌
+DOMAIN-SUFFIX,crl.pki.goog,🔎 谷歌
+DOMAIN-SUFFIX,dl.google.com,🔎 谷歌
+DOMAIN-SUFFIX,dl.l.google.com,🔎 谷歌
+DOMAIN-SUFFIX,googletagmanager.com,🔎 谷歌
+DOMAIN-SUFFIX,googletagservices.com,🔎 谷歌
+DOMAIN-SUFFIX,gtm.oasisfeng.com,🔎 谷歌
+DOMAIN-SUFFIX,mtalk.google.com,🔎 谷歌
+DOMAIN-SUFFIX,ocsp.pki.goog,🔎 谷歌
+DOMAIN-SUFFIX,recaptcha.net,🔎 谷歌
+DOMAIN-SUFFIX,safebrowsing-cache.google.com,🔎 谷歌
+DOMAIN-SUFFIX,settings.crashlytics.com,🔎 谷歌
+DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🔎 谷歌
+DOMAIN-SUFFIX,toolbarqueries.google.com,🔎 谷歌
+DOMAIN-SUFFIX,tools.google.com,🔎 谷歌
+DOMAIN-SUFFIX,tools.l.google.com,🔎 谷歌
+DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🔎 谷歌
+
+# Google_CN_Play
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,🔎 谷歌
+DOMAIN-SUFFIX,services.googleapis.cn,🔎 谷歌
+IP-CIDR,120.232.181.162/32,no-resolve,🔎 谷歌
+IP-CIDR,120.241.147.226/32,no-resolve,🔎 谷歌
+IP-CIDR,120.253.253.226/32,no-resolve,🔎 谷歌
+IP-CIDR,120.253.255.162/32,no-resolve,🔎 谷歌
+IP-CIDR,120.253.255.34/32,no-resolve,🔎 谷歌
+IP-CIDR,120.253.255.98/32,no-resolve,🔎 谷歌
+IP-CIDR,180.163.150.162/32,no-resolve,🔎 谷歌
+IP-CIDR,180.163.150.34/32,no-resolve,🔎 谷歌
+IP-CIDR,180.163.151.162/32,no-resolve,🔎 谷歌
+IP-CIDR,180.163.151.34/32,no-resolve,🔎 谷歌
+IP-CIDR,203.208.39.0/24,no-resolve,🔎 谷歌
+IP-CIDR,203.208.40.0/24,no-resolve,🔎 谷歌
+IP-CIDR,203.208.41.0/24,no-resolve,🔎 谷歌
+IP-CIDR,203.208.43.0/24,no-resolve,🔎 谷歌
+IP-CIDR,203.208.50.0/24,no-resolve,🔎 谷歌
+IP-CIDR,220.181.174.162/32,no-resolve,🔎 谷歌
+IP-CIDR,220.181.174.226/32,no-resolve,🔎 谷歌
+IP-CIDR,220.181.174.34/32,no-resolve,🔎 谷歌
+
+# Update record
+# 1 增加 Google_CN 服务

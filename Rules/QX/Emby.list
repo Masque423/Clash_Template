@@ -1,0 +1,51 @@
+# ,🛢️ Emby
+# NAME: Emby
+# AUTHOR: justdoiting
+# REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Emby/Emby.list
+# UPDATED: 2024-02-03 01:48:29
+# DOMAIN: 1
+# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 34
+# IP-CIDR: 1
+# PROCESS-NAME: 1
+# TOTAL: 39+1
+DOMAIN,emby.enjoyit.eu.org,🛢️ Emby
+DOMAIN-SUFFIX,agahk1.jmsooo.com,🛢️ Emby
+DOMAIN-SUFFIX,agajp1.jmsooo.com,🛢️ Emby
+DOMAIN-SUFFIX,agasg1.jmsooo.com,🛢️ Emby
+DOMAIN-SUFFIX,aws.jmsooo.com,🛢️ Emby
+DOMAIN-SUFFIX,cf1.jmsooo.com,🛢️ Emby
+DOMAIN-SUFFIX,cristiamo.xyz,🛢️ Emby
+DOMAIN-SUFFIX,emby.cjpc.cc,🛢️ Emby
+DOMAIN-SUFFIX,emby.cjpc.tv,🛢️ Emby
+DOMAIN-SUFFIX,emby.cjpc.xyz,🛢️ Emby
+DOMAIN-SUFFIX,emby.cristiamo.top,🛢️ Emby
+DOMAIN-SUFFIX,emby.flowercloud.yt,🛢️ Emby
+DOMAIN-SUFFIX,emby.immtel.com,🛢️ Emby
+DOMAIN-SUFFIX,emby.maying.club,🛢️ Emby
+DOMAIN-SUFFIX,emby.mcwy.me,🛢️ Emby
+DOMAIN-SUFFIX,emby.mdss.cloud,🛢️ Emby
+DOMAIN-SUFFIX,emby.neko.edu.rs,🛢️ Emby
+DOMAIN-SUFFIX,emby.nexitally.com,🛢️ Emby
+DOMAIN-SUFFIX,emby.nyancat.net,🛢️ Emby
+DOMAIN-SUFFIX,emby.ok.edu.hk,🛢️ Emby
+DOMAIN-SUFFIX,emby.paoche.ooo,🛢️ Emby
+DOMAIN-SUFFIX,emby.prprcloud.com,🛢️ Emby
+DOMAIN-SUFFIX,emby.wtf,🛢️ Emby
+DOMAIN-SUFFIX,emby.xeton.dev,🛢️ Emby
+DOMAIN-SUFFIX,emby.ytoo.li,🛢️ Emby
+DOMAIN-SUFFIX,embyserver.ga,🛢️ Emby
+DOMAIN-SUFFIX,hinet.jmsooo.com,🛢️ Emby
+DOMAIN-SUFFIX,jellyfin.xeton.dev,🛢️ Emby
+DOMAIN-SUFFIX,line.emby.men,🛢️ Emby
+DOMAIN-SUFFIX,mickeycloud.com,🛢️ Emby
+DOMAIN-SUFFIX,movie.xeton.dev,🛢️ Emby
+DOMAIN-SUFFIX,ntt1.jmsooo.com,🛢️ Emby
+DOMAIN-SUFFIX,plusmedia.site,🛢️ Emby
+DOMAIN-SUFFIX,pornemby.club,🛢️ Emby
+DOMAIN-SUFFIX,servers.xeton.dev,🛢️ Emby
+DOMAIN-KEYWORD,emby.wtf  # 终点站,🛢️ Emby
+DOMAIN-KEYWORD,jmsooo  # 卷毛鼠,🛢️ Emby
+DOMAIN-KEYWORD,odysseyplus  # 奥德赛,🛢️ Emby
+IP-CIDR,129.150.48.48/32,no-resolve  # CCEmby,🛢️ Emby
+PROCESS-NAME,com.mb.android,🛢️ Emby

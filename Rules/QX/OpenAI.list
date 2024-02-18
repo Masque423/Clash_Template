@@ -1,0 +1,43 @@
+# ,🤖 OpenAI
+# NAME: OpenAI
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/OpenAI/OpenAI.list
+# UPDATED: 2024-02-03 01:49:21
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 23
+# IP-ASN: 1
+# IP-CIDR: 2
+# TOTAL: 29
+DOMAIN,browser-intake-datadoghq.com,🤖 OpenAI
+DOMAIN,static.cloudflareinsights.com,🤖 OpenAI
+DOMAIN-SUFFIX,ai.com,🤖 OpenAI
+DOMAIN-SUFFIX,algolia.net,🤖 OpenAI
+DOMAIN-SUFFIX,api.statsig.com,🤖 OpenAI
+DOMAIN-SUFFIX,auth0.com,🤖 OpenAI
+DOMAIN-SUFFIX,cdn.cloudflare.net,🤖 OpenAI
+DOMAIN-SUFFIX,challenges.cloudflare.com,🤖 OpenAI
+DOMAIN-SUFFIX,chatgpt.livekit.cloud,🤖 OpenAI
+DOMAIN-SUFFIX,client-api.arkoselabs.com,🤖 OpenAI
+DOMAIN-SUFFIX,events.statsigapi.net,🤖 OpenAI
+DOMAIN-SUFFIX,featuregates.org,🤖 OpenAI
+DOMAIN-SUFFIX,host.livekit.cloud,🤖 OpenAI
+DOMAIN-SUFFIX,identrust.com,🤖 OpenAI
+DOMAIN-SUFFIX,intercom.io,🤖 OpenAI
+DOMAIN-SUFFIX,intercomcdn.com,🤖 OpenAI
+DOMAIN-SUFFIX,launchdarkly.com,🤖 OpenAI
+DOMAIN-SUFFIX,oaistatic.com,🤖 OpenAI
+DOMAIN-SUFFIX,oaiusercontent.com,🤖 OpenAI
+DOMAIN-SUFFIX,observeit.net,🤖 OpenAI
+DOMAIN-SUFFIX,poe.com,🤖 OpenAI
+DOMAIN-SUFFIX,segment.io,🤖 OpenAI
+DOMAIN-SUFFIX,sentry.io,🤖 OpenAI
+DOMAIN-SUFFIX,stripe.com,🤖 OpenAI
+DOMAIN-SUFFIX,turn.livekit.cloud,🤖 OpenAI
+DOMAIN-KEYWORD,openai,🤖 OpenAI
+IP-CIDR,24.199.123.28/32,no-resolve,🤖 OpenAI
+IP-CIDR,64.23.132.171/32,no-resolve,🤖 OpenAI
+IP-ASN,20473,no-resolve,🤖 OpenAI
+
+# Update record
+# 1 创建于 2024/2/16

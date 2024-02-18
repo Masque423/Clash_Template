@@ -44,8 +44,9 @@ DOMAIN-SUFFIX,ntt1.jmsooo.com,🛢️ Emby
 DOMAIN-SUFFIX,plusmedia.site,🛢️ Emby
 DOMAIN-SUFFIX,pornemby.club,🛢️ Emby
 DOMAIN-SUFFIX,servers.xeton.dev,🛢️ Emby
-DOMAIN-KEYWORD,emby.wtf  # 终点站,🛢️ Emby
-DOMAIN-KEYWORD,jmsooo  # 卷毛鼠,🛢️ Emby
-DOMAIN-KEYWORD,odysseyplus  # 奥德赛,🛢️ Emby
-IP-CIDR,129.150.48.48/32,no-resolve  # CCEmby,🛢️ Emby
+DOMAIN-KEYWORD,emby.wtf,🛢️ Emby
+DOMAIN-KEYWORD,jmsooo,🛢️ Emby
+DOMAIN-KEYWORD,odysseyplus,🛢️ Emby
+# CCEmby
+IP-CIDR,129.150.48.48/32,no-resolve,🛢️ Emby
 PROCESS-NAME,com.mb.android,🛢️ Emby

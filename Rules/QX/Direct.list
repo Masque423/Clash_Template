@@ -4,7 +4,7 @@
 # REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Lan/Lan.list
 # UPDATED: 2024-02-10 02:12:34
 # DOMAIN: 7
-# DOMAIN-SUFFIX: 123
+# DOMAIN-SUFFIX: 123+3
 # IP-CIDR: 14
 # IP-CIDR6: 4
 # TOTAL: 148
@@ -16,6 +16,9 @@ DOMAIN,router.asus.com,📶 全球直连
 DOMAIN,setmeup.arubanetworks.com,📶 全球直连
 DOMAIN,www.asusrouter.com,📶 全球直连
 DOMAIN-SUFFIX,api.v1.mk,📶 全球直连
+DOMAIN-SUFFIX,masque.top,📶 全球直连
+DOMAIN-SUFFIX,kuzey.top,📶 全球直连
+DOMAIN-SUFFIX,uwac.top,📶 全球直连
 DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,📶 全球直连
 DOMAIN-SUFFIX,0.in-addr.arpa,📶 全球直连
 DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,📶 全球直连

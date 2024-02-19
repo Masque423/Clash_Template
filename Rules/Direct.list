@@ -15,10 +15,6 @@ DOMAIN,instant.arubanetworks.com
 DOMAIN,router.asus.com
 DOMAIN,setmeup.arubanetworks.com
 DOMAIN,www.asusrouter.com
-DOMAIN-SUFFIX,api.v1.mk
-DOMAIN-SUFFIX,masque.top
-DOMAIN-SUFFIX,kuzey.top
-DOMAIN-SUFFIX,uwac.top
 DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,0.in-addr.arpa
 DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa

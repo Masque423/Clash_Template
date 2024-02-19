@@ -1,0 +1,15 @@
+# ,⚡ Speedtest
+# NAME: Speedtest
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Speedtest/Speedtest.list
+# UPDATED: 2024-02-03 01:46:21
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 4
+# USER-AGENT: 1
+# TOTAL: 6
+DOMAIN-SUFFIX,fast.com,⚡ Speedtest
+DOMAIN-SUFFIX,ooklaserver.net,⚡ Speedtest
+DOMAIN-SUFFIX,speed.cloudflare.com,⚡ Speedtest
+DOMAIN-SUFFIX,speed.dler.io,⚡ Speedtest
+DOMAIN-KEYWORD,speedtest,⚡ Speedtest
+USER-AGENT,SpeedTest*,⚡ Speedtest

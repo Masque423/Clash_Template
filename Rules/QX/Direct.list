@@ -15,10 +15,6 @@ DOMAIN,instant.arubanetworks.com,📶 全球直连
 DOMAIN,router.asus.com,📶 全球直连
 DOMAIN,setmeup.arubanetworks.com,📶 全球直连
 DOMAIN,www.asusrouter.com,📶 全球直连
-DOMAIN-SUFFIX,api.v1.mk,📶 全球直连
-DOMAIN-SUFFIX,masque.top,📶 全球直连
-DOMAIN-SUFFIX,kuzey.top,📶 全球直连
-DOMAIN-SUFFIX,uwac.top,📶 全球直连
 DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,📶 全球直连
 DOMAIN-SUFFIX,0.in-addr.arpa,📶 全球直连
 DOMAIN-SUFFIX,1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa,📶 全球直连

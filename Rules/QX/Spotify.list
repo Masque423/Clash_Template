@@ -1,0 +1,43 @@
+# ,🎶 Spotify
+# NAME: Spotify
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Surge/Spotify/Spotify.list
+# UPDATED: 2024-02-03 01:46:23
+# DOMAIN: 6
+# DOMAIN-KEYWORD: 2
+# DOMAIN-SUFFIX: 19
+# IP-CIDR: 2
+# PROCESS-NAME: 1
+# USER-AGENT: 1
+# TOTAL: 31
+DOMAIN,audio4-ak-spotify-com.akamaized.net,🎶 Spotify
+DOMAIN,cdn-spotify-experiments.conductrics.com,🎶 Spotify
+DOMAIN,heads-ak-spotify-com.akamaized.net,🎶 Spotify
+DOMAIN,spotify.com.edgesuite.net,🎶 Spotify
+DOMAIN,spotify.map.fastly.net,🎶 Spotify
+DOMAIN,spotify.map.fastlylb.net,🎶 Spotify
+DOMAIN-SUFFIX,audio-ak-spotify-com.akamaized.net,🎶 Spotify
+DOMAIN-SUFFIX,byspotify.com,🎶 Spotify
+DOMAIN-SUFFIX,heads4-ak-spotify-com.akamaized.net,🎶 Spotify
+DOMAIN-SUFFIX,pscdn.co,🎶 Spotify
+DOMAIN-SUFFIX,scdn.co,🎶 Spotify
+DOMAIN-SUFFIX,spoti.fi,🎶 Spotify
+DOMAIN-SUFFIX,spotify-com.akamaized.net,🎶 Spotify
+DOMAIN-SUFFIX,spotify-everywhere.com,🎶 Spotify
+DOMAIN-SUFFIX,spotify.com,🎶 Spotify
+DOMAIN-SUFFIX,spotify.design,🎶 Spotify
+DOMAIN-SUFFIX,spotifycdn.com,🎶 Spotify
+DOMAIN-SUFFIX,spotifycdn.net,🎶 Spotify
+DOMAIN-SUFFIX,spotifycharts.com,🎶 Spotify
+DOMAIN-SUFFIX,spotifycodes.com,🎶 Spotify
+DOMAIN-SUFFIX,spotifyforbrands.com,🎶 Spotify
+DOMAIN-SUFFIX,spotifyjobs.com,🎶 Spotify
+DOMAIN-SUFFIX,spotifynewsroom.jp,🎶 Spotify
+DOMAIN-SUFFIX,spotilocal.com,🎶 Spotify
+DOMAIN-SUFFIX,tospotify.com,🎶 Spotify
+DOMAIN-KEYWORD,-spotify-,🎶 Spotify
+DOMAIN-KEYWORD,spotify.com,🎶 Spotify
+IP-CIDR,104.154.127.126/32,no-resolve,🎶 Spotify
+IP-CIDR,35.186.224.47/32,no-resolve,🎶 Spotify
+USER-AGENT,Spotify*,🎶 Spotify
+PROCESS-NAME,com.spotify.music,🎶 Spotify

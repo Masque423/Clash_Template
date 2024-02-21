@@ -1,0 +1,38 @@
+# ,🎬 PrimeVideo
+# NAME: AmazonPrimeVideo
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-03 01:46:25
+# DOMAIN: 5
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 18
+# PROCESS-NAME: 1
+# USER-AGENT: 2
+# TOTAL: 27
+DOMAIN,d1v5ir2lpwr8os.cloudfront.net,🎬 PrimeVideo
+DOMAIN,d22qjgkvxw22r6.cloudfront.net,🎬 PrimeVideo
+DOMAIN,d25xi40x97liuc.cloudfront.net,🎬 PrimeVideo
+DOMAIN,d27xxe7juh1us6.cloudfront.net,🎬 PrimeVideo
+DOMAIN,dmqdd6hw24ucf.cloudfront.net,🎬 PrimeVideo
+DOMAIN-SUFFIX,aiv-cdn.net,🎬 PrimeVideo
+DOMAIN-SUFFIX,aiv-delivery.net,🎬 PrimeVideo
+DOMAIN-SUFFIX,amazonprimevideo.cn,🎬 PrimeVideo
+DOMAIN-SUFFIX,amazonprimevideo.com.cn,🎬 PrimeVideo
+DOMAIN-SUFFIX,amazonprimevideos.com,🎬 PrimeVideo
+DOMAIN-SUFFIX,amazonvideo.cc,🎬 PrimeVideo
+DOMAIN-SUFFIX,amazonvideo.com,🎬 PrimeVideo
+DOMAIN-SUFFIX,atv-ps.amazon.com,🎬 PrimeVideo
+DOMAIN-SUFFIX,avodmp4s3ww-a.akamaihd.net,🎬 PrimeVideo
+DOMAIN-SUFFIX,fls-na.amazon.com,🎬 PrimeVideo
+DOMAIN-SUFFIX,llnwd.net,🎬 PrimeVideo
+DOMAIN-SUFFIX,media-amazon.com,🎬 PrimeVideo
+DOMAIN-SUFFIX,prime-video.com,🎬 PrimeVideo
+DOMAIN-SUFFIX,primevideo.cc,🎬 PrimeVideo
+DOMAIN-SUFFIX,primevideo.com,🎬 PrimeVideo
+DOMAIN-SUFFIX,primevideo.info,🎬 PrimeVideo
+DOMAIN-SUFFIX,primevideo.org,🎬 PrimeVideo
+DOMAIN-SUFFIX,primevideo.tv,🎬 PrimeVideo
+DOMAIN-KEYWORD,avoddashs,🎬 PrimeVideo
+USER-AGENT,InstantVideo.US*,🎬 PrimeVideo
+USER-AGENT,Prime%20Video*,🎬 PrimeVideo
+PROCESS-NAME,com.amazon.avod.thirdpartyclient,🎬 PrimeVideo

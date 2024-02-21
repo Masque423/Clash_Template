@@ -48,5 +48,6 @@ DOMAIN-KEYWORD,emby.wtf
 DOMAIN-KEYWORD,jmsooo
 DOMAIN-KEYWORD,odysseyplus
 # CCEmby
+DOMAIN-SUFFIX,cc.coemn.com
 IP-CIDR,129.150.48.48/32,no-resolve
 PROCESS-NAME,com.mb.android

@@ -20,7 +20,7 @@ DOMAIN,www.asusrouter.com
 DOMAIN-SUFFIX,3gppnetwork.org
 
 DOMAIN-SUFFIX,masque.top
-DOMAIN-SUFFIX,api.v1.mk
+DOMAIN-SUFFIX,v1.mk
 
 DOMAIN-SUFFIX,0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
 DOMAIN-SUFFIX,0.in-addr.arpa
